@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Application_Gestion.Interfaces.Dialogs.DParametreCategorie"
+>
+    <Grid Style="{x:DynamicResource DialogGrid}" RowDefinitions="*,3*,*" ColumnDefinitions="40,*,40">
+        <Grid Style="{x:DynamicResource PageGrid}" RowDefinitions="*,*,*,*,*,*" ColumnDefinitions="*,*"
+            Grid.Column="1" Grid.Row="1" >
+
+            <Label Style="{x:DynamicResource Title}" x:Name="Title"
+                Grid.Row="0" VerticalOptions="End" Grid.ColumnSpan="2"
+                Text="Parametres" 
+            />
+
+            <Label Style="{x:DynamicResource Classic}" 
+                Grid.Row="1" Grid.ColumnSpan="2"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                Text="Nom de la catégorie :"
+            />
+
+            <Entry x:Name="Name"
+                Grid.Row="2" Grid.ColumnSpan="2"
+                VerticalOptions="Start" 
+            />
+
+            <Label Style="{x:DynamicResource Classic}" 
+                Grid.Row="3" Grid.ColumnSpan="2"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                Text="Limite de dépense de la catégorie :"
+            />
+
+            <Entry x:Name="Limit" Keyboard="Numeric"
+                Grid.Row="4" Grid.ColumnSpan="2"
+                VerticalOptions="Start" 
+            />
+
+            <Label Style="{x:DynamicResource Classic}" 
+                Grid.Row="5" Grid.Column="0"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                Text="Supprimez la Catégorie :"
+            />
+
+            <ImageButton x:Name="removeCategorie" Style="{x:DynamicResource Delete}"
+                Grid.Row="5" Grid.Column="1"
+                VerticalOptions="Start" 
+                Clicked="RemoveCategorie_Clicked"
+            />
+        </Grid>
+
+        <ImageButton x:Name="Back" Style="{x:DynamicResource ButtonCancel}"
+            Grid.Column="1" Grid.Row="1" VerticalOptions="End" HorizontalOptions="Start"
+            Margin="-40,0,0,-40"              
+            Clicked="Back_Clicked"
+        />
+
+        <ImageButton x:Name="Valider" Style="{x:DynamicResource ButtonOk}"
+            Grid.Column="1" Grid.Row="1" VerticalOptions="End" HorizontalOptions="End"
+            Margin="0,0,-40,-40"
+            Clicked="Valider_Clicked"
+        />
+    </Grid>
+</ContentView>

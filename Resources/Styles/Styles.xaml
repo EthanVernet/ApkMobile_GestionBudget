@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!--Page-->
+    <Style TargetType="Grid" x:Key="PageGrid">
+        <Setter Property="Background" Value="{x:DynamicResource Black}"/>
+    </Style>
+
+    <Style TargetType="Grid" x:Key="DialogGrid">
+        <Setter Property="Background" Value="{DynamicResource Black}"/>
+    </Style>
+
+    <!--ImageButton-->
+    <Style TargetType="ImageButton" x:Key="ButtonMenu">
+        <Setter Property="Source" Value="menu_64px.png"/>
+        <Setter Property="VerticalOptions" Value="Start"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="BorderWidth" Value="0"/>
+    </Style>
+
+    <Style TargetType="ImageButton" x:Key="ButtonHistory">
+        <Setter Property="Source" Value="history_64px.png"/>
+        <Setter Property="VerticalOptions" Value="Start"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="BorderWidth" Value="0"/>
+    </Style>
+
+    <Style TargetType="ImageButton" x:Key="Setting">
+        <Setter Property="Source" Value="settings_64px.png"/>
+        <Setter Property="VerticalOptions" Value="Start"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="BorderWidth" Value="0"/>
+    </Style>
+    
+    <Style TargetType="ImageButton" x:Key="ButtonOk">
+        <Setter Property="Source" Value="ok_64px.png"/>
+        <Setter Property="WidthRequest" Value="64"/>
+        <Setter Property="HeightRequest" Value="64"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="BorderWidth" Value="0"/>
+    </Style>
+
+    <Style TargetType="ImageButton" x:Key="ButtonCancel">
+        <Setter Property="Source" Value="cancel_64px.png"/>
+        <Setter Property="WidthRequest" Value="64"/>
+        <Setter Property="HeightRequest" Value="64"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="BorderWidth" Value="0"/>
+    </Style>
+
+    <Style TargetType="ImageButton" x:Key="AddGreen">
+        <Setter Property="Source" Value="add1_64px.png"/>
+        <Setter Property="WidthRequest" Value="64"/>
+        <Setter Property="HeightRequest" Value="64"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="BorderWidth" Value="0"/>
+    </Style>
+
+    <Style TargetType="ImageButton" x:Key="AddBlue">
+        <Setter Property="Source" Value="add2_64px.png"/>
+        <Setter Property="WidthRequest" Value="64"/>
+        <Setter Property="HeightRequest" Value="64"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="BorderWidth" Value="0"/>
+    </Style>
+
+    <Style TargetType="ImageButton" x:Key="SwitchOff">
+        <Setter Property="Source" Value="toggle_off_64px.png"/>
+        <Setter Property="WidthRequest" Value="64"/>
+        <Setter Property="HeightRequest" Value="64"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="BorderWidth" Value="0"/>
+    </Style>
+
+    <Style TargetType="ImageButton" x:Key="SwitchOn">
+        <Setter Property="Source" Value="toggle_on_64px.png"/>
+        <Setter Property="WidthRequest" Value="64"/>
+        <Setter Property="HeightRequest" Value="64"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="BorderWidth" Value="0"/>
+    </Style>
+
+    <Style TargetType="ImageButton" x:Key="ArrowUp">
+        <Setter Property="Source" Value="arrow_up_32px.png"/>
+        <Setter Property="WidthRequest" Value="32"/>
+        <Setter Property="HeightRequest" Value="32"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="BorderWidth" Value="0"/>
+    </Style>
+
+    <Style TargetType="ImageButton" x:Key="ArrowDown">
+        <Setter Property="Source" Value="arrow_down_32px.png"/>
+        <Setter Property="WidthRequest" Value="32"/>
+        <Setter Property="HeightRequest" Value="32"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="BorderWidth" Value="0"/>
+    </Style>
+
+    <Style TargetType="ImageButton" x:Key="Delete">
+        <Setter Property="Source" Value="delete_32px.png"/>
+        <Setter Property="WidthRequest" Value="32"/>
+        <Setter Property="HeightRequest" Value="32"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="BorderWidth" Value="0"/>
+    </Style>
+
+    <!--Button-->
+    <Style TargetType="Button" x:Key="MenuButton">
+        <Setter Property="Margin" Value="20"/>
+        <Setter Property="CornerRadius" Value="20"/>
+        <Setter Property="TextColor" Value="{x:DynamicResource White}"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="BackgroundColor" Value="{x:DynamicResource LightBlack}"/>
+        <Setter Property="BorderWidth" Value="2"/>
+    </Style>
+    <!--Label-->
+    <Style TargetType="Label" x:Key="Title">
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="VerticalOptions" Value="Start"/>
+        <Setter Property="TextColor" Value="{x:DynamicResource White}"/>
+        <Setter Property="FontSize" Value="32"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="Classic">
+        <Setter Property="TextColor" Value="{x:DynamicResource White}"/>
+        <Setter Property="FontSize" Value="20"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="MoneyBlue">
+        <Setter Property="TextColor" Value="{x:DynamicResource Blue}"/>
+        <Setter Property="FontSize" Value="28"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="MoneyGreen">
+        <Setter Property="TextColor" Value="{x:DynamicResource Green}"/>
+        <Setter Property="FontSize" Value="28"/>
+    </Style>
+    
+    <!--Entry-->
+    <Style TargetType="Entry">
+        <Setter Property="TextColor" Value="{x:DynamicResource White}"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Margin" Value="40,0,40,0"/>
+    </Style>
+</ResourceDictionary>

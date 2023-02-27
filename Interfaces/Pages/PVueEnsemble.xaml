@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Application_Gestion.Interfaces.Pages.PVueEnsemble"
+>
+    <Grid x:Name="MainGrid" Style="{x:DynamicResource PageGrid}" RowDefinitions="*,3*">
+        <!--Header-->
+        <Grid ColumnDefinitions="*,*" RowDefinitions="50,0.7*,1*">
+            <!--Button Menu-->
+            <ImageButton x:Name="ButtonMenu" Style="{x:DynamicResource ButtonMenu}" Grid.Column="0" Clicked="ButtonMenu_Clicked"/>
+            <ImageButton x:Name="ButtonParametre" Style="{x:DynamicResource Setting}" Grid.Column="1" Clicked="ButtonParametre_Clicked"/>
+
+            <!--Title-->
+            <Label x:Name="Title" Style="{x:DynamicResource Title}"
+                Grid.ColumnSpan="2" Grid.Row="1"                 
+                Text="Accueil"
+            />
+            
+            <Label Style="{x:DynamicResource Classic}"
+                Grid.ColumnSpan="2" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="End"
+                Text="Vue d'ensemble"
+            />
+
+            <!--Affichage-->
+            <Label Style="{x:DynamicResource Classic}" 
+                Grid.Column="0" Grid.Row="2"
+                HorizontalTextAlignment="Center" VerticalTextAlignment="Start"
+                Text="Vous avez"
+            />
+            <Label x:Name="SommeTotale" Style="{x:DynamicResource MoneyGreen}"
+                Grid.Column="0" Grid.Row="2"
+                HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+            />
+
+            <Label Style="{x:DynamicResource Classic}" 
+                Grid.Column="1" Grid.Row="2"
+                HorizontalTextAlignment="Center" VerticalTextAlignment="Start"
+                Text="Prévisions"
+            />
+            <Label x:Name="SommePrevisions" Style="{x:DynamicResource MoneyBlue}"
+                Grid.Column="1" Grid.Row="2"
+                HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+            />
+
+            <ImageButton x:Name="SwitchView" Style="{x:DynamicResource SwitchOff}"
+                  Grid.Row="2" Grid.ColumnSpan="2"
+                  Clicked="SwitchView_Clicked"/>
+        </Grid>
+
+        <!--Main-->
+        <Grid Grid.Row="1" ColumnDefinitions="*,*" RowDefinitions="*,14*,*" BackgroundColor="{x:DynamicResource LightBlack}">
+            <!--header-->
+            <Label Style="{x:DynamicResource Classic}" 
+                Grid.Column="0" Grid.Row="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                Text="Crédit"
+            />
+
+            <Label Style="{x:DynamicResource Classic}" 
+                Grid.Column="1" Grid.Row="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                Text="Débit"
+            />
+
+            <!--Content-->
+            <StackLayout x:Name="ViewCredit"  
+                      Grid.Column="0" Grid.Row="1">
+            </StackLayout>
+
+            <StackLayout x:Name="ViewDebit"  
+                      Grid.Column="1" Grid.Row="1">
+            </StackLayout>
+            
+            <!--Footer-->
+            <Label x:Name="SommeCredit" Style="{x:DynamicResource Classic}" 
+                Grid.Column="0" Grid.Row="2" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"
+            />
+            
+            <Label x:Name="SommeDebit" Style="{x:DynamicResource Classic}" 
+                Grid.Column="1" Grid.Row="2" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"
+            />
+
+            <Grid Grid.RowSpan="3" Grid.ColumnSpan="2" BackgroundColor="{x:DynamicResource White}" WidthRequest="1"/>
+            <Grid Grid.Row="0" Grid.Column="0" VerticalOptions="End" Grid.ColumnSpan="2" BackgroundColor="{x:DynamicResource White}" HeightRequest="1"/>
+            <Grid Grid.Row="2" Grid.Column="0" VerticalOptions="Start" Grid.ColumnSpan="2" BackgroundColor="{x:DynamicResource White}" HeightRequest="1"/>
+            <Grid Grid.Row="0" Grid.Column="0" VerticalOptions="Start" Grid.ColumnSpan="2" BackgroundColor="{x:DynamicResource White}" HeightRequest="1"/>
+
+            <!--Other-->
+            <ImageButton x:Name="AddTransactionDebit" Style="{x:DynamicResource AddGreen}"
+                Grid.Column="1" Grid.Row="1" HorizontalOptions="End" VerticalOptions="End"
+                Margin="0,0,10,10"
+                Clicked="AddTransaction_Clicked"
+            />
+        </Grid>
+    </Grid>
+</ContentView>

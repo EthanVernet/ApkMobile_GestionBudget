@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Application_Gestion.Interfaces.Dialogs.DAddTransaction">
+    <Grid Style="{x:DynamicResource DialogGrid}" RowDefinitions="*,3*,*" ColumnDefinitions="40,*,40">
+        <Grid x:Name="MainGrid" Style="{x:DynamicResource PageGrid}" RowDefinitions="*,*,*,*,*,*,*"
+            Grid.Column="1" Grid.Row="1">
+
+            <Label Style="{x:DynamicResource Title}"
+                Grid.Row="0" VerticalOptions="End" HorizontalOptions="Center"                       
+                Text="Ajout d'une transaction" 
+            />
+
+            <Label Style="{x:DynamicResource Classic}"
+                Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center"                       
+                Text="Entrer un nom pour le transaction :"  
+            />
+
+            <Entry x:Name="Name" 
+                Grid.Row="2" VerticalOptions="Center" 
+            />
+
+            <Label Style="{x:DynamicResource Classic}"
+                Grid.Row="3" VerticalOptions="Center" HorizontalOptions="Center"
+                Text="Entrer la somme :"
+            />
+
+            <Entry x:Name="Value"
+                Grid.Row="4" VerticalOptions="Center" 
+                Keyboard="Numeric"   
+            />
+
+            <Label Style="{x:DynamicResource Classic}"
+                Grid.Row="5" VerticalOptions="Center" HorizontalOptions="Center"       
+                Text="Sélectionez une catégorie :" 
+            />
+        </Grid>
+
+        <ImageButton x:Name="Back" Style="{x:DynamicResource ButtonCancel}"
+            Grid.Column="1" Grid.Row="1" VerticalOptions="End" HorizontalOptions="Start"
+            Margin="-40,0,0,-40"              
+            Clicked="Back_Clicked"
+        />
+
+        <ImageButton x:Name="Valider" Style="{x:DynamicResource ButtonOk}"
+            Grid.Column="1" Grid.Row="1" VerticalOptions="End" HorizontalOptions="End"
+            Margin="0,0,-40,-40"
+            Clicked="Valider_Clicked"
+        />
+    </Grid>
+</ContentView>

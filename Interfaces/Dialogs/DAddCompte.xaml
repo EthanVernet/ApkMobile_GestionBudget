@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Application_Gestion.Interfaces.Dialogs.DAddCompte">
+    <Grid Style="{x:DynamicResource DialogGrid}" RowDefinitions="*,*,*" ColumnDefinitions="40,*,40">
+        <Grid Style="{x:DynamicResource PageGrid}" RowDefinitions="*,*,*"
+            Grid.Column="1" Grid.Row="1" >
+
+            <Label Style="{x:DynamicResource Title}" 
+                Grid.Row="0" VerticalOptions="End"
+                Text="Création d'un compte" 
+            />
+
+            <Label Style="{x:DynamicResource Classic}" 
+                Grid.Row="1"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                Text="Entrer un nom pour le compte :"
+            />
+
+            <Entry x:Name="Name"
+                Grid.Row="2" 
+                VerticalOptions="Start" 
+            />
+        </Grid>
+        
+        <ImageButton x:Name="Back" Style="{x:DynamicResource ButtonCancel}"
+            Grid.Column="1" Grid.Row="1" VerticalOptions="End" HorizontalOptions="Start"
+            Margin="-40,0,0,-40"              
+            Clicked="Back_Clicked"
+        />
+
+        <ImageButton x:Name="Valider" Style="{x:DynamicResource ButtonOk}"
+            Grid.Column="1" Grid.Row="1" VerticalOptions="End" HorizontalOptions="End"
+            Margin="0,0,-40,-40"
+            Clicked="Valider_Clicked"
+        />
+    </Grid>
+</ContentView>

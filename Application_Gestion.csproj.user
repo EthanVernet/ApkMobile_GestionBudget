@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
+    <ActiveDebugFramework>net6.0-android</ActiveDebugFramework>
+    <ActiveDebugProfile>Émulateur Android</ActiveDebugProfile>
+    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
+    <DefaultDevice>phone_m-dpi_5_4in_-_api_30</DefaultDevice>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-android|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(TargetPlatformIdentifier)'=='iOS'">
+    <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
+    <PlatformTarget>arm64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <MauiXaml Update="Interfaces\Controls\ButtonMenu.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Interfaces\Controls\CategorieSelecter.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Interfaces\Controls\ItemTransaction.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Interfaces\Dialogs\DAddCategorie.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Interfaces\Dialogs\DAddCompte.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Interfaces\Dialogs\DAddTransaction.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Interfaces\Dialogs\DAddTransactionInCategorie.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Interfaces\Dialogs\DParametreCategorie.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Interfaces\Dialogs\DParametreCompte.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Interfaces\Pages\PAccueil.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Interfaces\Pages\PCategories.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Interfaces\Pages\PVueCategorie.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Interfaces\Pages\PVueEnsemble.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+  </ItemGroup>
+</Project>
