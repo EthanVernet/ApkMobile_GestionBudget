@@ -15,34 +15,34 @@ namespace Métier
             _comptes = new MCompte();
         }
 
-        public void AddTransactionAnnuel(ref Transaction transaction)
+        public void AddTransactionAnnuel(Transaction transaction)
         {
-            throw new System.NotImplementedException("Not implemented");
+            _annuel.AddTransaction(transaction);
         }
 
-        public void RemoveTransactionAnnuel(ref Transaction transaction)
+        public void RemoveTransactionAnnuel(Transaction transaction)
         {
-            throw new System.NotImplementedException("Not implemented");
+            _annuel.RemoveTransaction(transaction);
         }
 
-        public void AddTransactionMensuel(ref Transaction transaction)
+        public void AddTransactionMensuel(Transaction transaction)
         {
-            throw new System.NotImplementedException("Not implemented");
+            _mensuel.AddTransaction(transaction);
         }
 
-        public void RemoveTransactionMensuel(ref Transaction transaction)
+        public void RemoveTransactionMensuel(Transaction transaction)
         {
-            throw new System.NotImplementedException("Not implemented");
+            _mensuel.RemoveTransaction(transaction);
         }
 
-        public void AddCompte(ref Compte compte)
+        public void AddCompte(Compte compte)
         {
-            throw new System.NotImplementedException("Not implemented");
+            _comptes.AddCompte(compte);
         }
 
         public void RemoveCompte(ref Compte compte)
         {
-            throw new System.NotImplementedException("Not implemented");
+            _comptes.RemoveCompte(compte);
         }
     }
 }

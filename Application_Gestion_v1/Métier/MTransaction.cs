@@ -6,6 +6,7 @@ namespace Métier
     public class MTransaction
     {
         private List<Transaction> _transactions;
+        public List<Transaction> Transactions { get => _transactions; }
 
         public MTransaction()
         {

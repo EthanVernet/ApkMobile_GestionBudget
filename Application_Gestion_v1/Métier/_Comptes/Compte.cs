@@ -1,25 +1,31 @@
 using System;
-using System.Runtime.InteropServices;
 
-public class Compte {
-	private string _name;
-	private MCategorie _categories;
+namespace Métier
+{
+    public class Compte
+    {
+        private string _name;
+        private MCategorie _categories;
 
-	public Compte([Optional, DefaultParameterValueAttribute()]ref string name) {
-		throw new System.NotImplementedException("Not implemented");
-	}
-	public Categorie GetCategorie([Optional, DefaultParameterValueAttribute()]ref Categorie categorie) {
-		throw new System.NotImplementedException("Not implemented");
-	}
-	public void AddCategorie([Optional, DefaultParameterValueAttribute()]ref Categorie categorie) {
-		throw new System.NotImplementedException("Not implemented");
-	}
-	public void RemoveCategorie([Optional, DefaultParameterValueAttribute()]ref Categorie categorie) {
-		throw new System.NotImplementedException("Not implemented");
-	}
+        public Compte(string name)
+        {
+            throw new System.NotImplementedException("Not implemented");
+        }
 
-	private MCategorie mCategorie;
+        public Categorie GetCategorie(Categorie categorie)
+        {
+            throw new System.NotImplementedException("Not implemented");
+        }
 
-	private MCompte mCompte;
+        public void AddCategorie(Categorie categorie)
+        {
+            throw new System.NotImplementedException("Not implemented");
+        }
 
+        public void RemoveCategorie(Categorie categorie)
+        {
+            throw new System.NotImplementedException("Not implemented");
+        }
+
+    }
 }

@@ -1,0 +1,15 @@
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Métier\bin\Debug\net6.0\Model.deps.json
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Métier\bin\Debug\net6.0\Model.dll
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Métier\bin\Debug\net6.0\Model.pdb
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Métier\bin\Debug\net6.0\_Exception.dll
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Métier\bin\Debug\net6.0\_Exception.pdb
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Métier\obj\Debug\net6.0\Model.csproj.AssemblyReference.cache
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Métier\obj\Debug\net6.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Métier\obj\Debug\net6.0\Model.AssemblyInfoInputs.cache
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Métier\obj\Debug\net6.0\Model.AssemblyInfo.cs
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Métier\obj\Debug\net6.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Métier\obj\Debug\net6.0\Model.csproj.CopyComplete
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Métier\obj\Debug\net6.0\Model.dll
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Métier\obj\Debug\net6.0\refint\Model.dll
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Métier\obj\Debug\net6.0\Model.pdb
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Métier\obj\Debug\net6.0\ref\Model.dll

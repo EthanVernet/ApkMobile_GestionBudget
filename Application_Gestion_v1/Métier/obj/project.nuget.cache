@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O2MnO+QvX+HdLK7Dt5E86bThMIv8yU3TVFv8d0xcvFXGuo9/qOGDt0sH1CMRd0gD2DH+JZ3vWUgvSucJyH3p6Q==",
+  "dgSpecHash": "LtYM8c7I3ICSHubuILhnvLe+KIYrloQlv2fd78m0RdCOln4N7WlZnMURmQtfXV4rzYsqEwQp7zOqtjn8GgtVYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Métier.csproj",
+  "projectFilePath": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

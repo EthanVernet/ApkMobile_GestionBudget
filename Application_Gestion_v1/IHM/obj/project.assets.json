@@ -1925,14 +1925,27 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -3860,14 +3873,27 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -5795,14 +5821,27 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -7730,14 +7769,27 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -9665,14 +9717,27 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -11600,14 +11665,27 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -13535,14 +13613,27 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -15470,14 +15561,27 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -15664,14 +15768,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -15858,14 +15975,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -16052,14 +16182,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -16246,14 +16389,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -16440,14 +16596,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -16634,14 +16803,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -16828,14 +17010,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -17022,14 +17217,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -17216,14 +17424,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -17410,14 +17631,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -17604,14 +17838,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -17798,14 +18045,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -17992,14 +18252,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -18186,14 +18459,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -18380,14 +18666,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -18574,14 +18873,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -18906,14 +19218,27 @@
           }
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -19210,14 +19535,27 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -19514,14 +19852,27 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -19818,14 +20169,27 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -20122,14 +20486,27 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -20426,14 +20803,27 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -20730,14 +21120,27 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     },
@@ -21040,14 +21443,27 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Métier/1.0.0": {
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "_Exception": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "_Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Métier.dll": {}
+          "bin/placeholder/_Exception.dll": {}
         }
       }
     }
@@ -24283,10 +24699,15 @@
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
     },
-    "Métier/1.0.0": {
+    "Model/1.0.0": {
       "type": "project",
-      "path": "../Métier/Métier.csproj",
-      "msbuildProject": "../Métier/Métier.csproj"
+      "path": "../Métier/Model.csproj",
+      "msbuildProject": "../Métier/Model.csproj"
+    },
+    "_Exception/1.0.0": {
+      "type": "project",
+      "path": "../Exception/_Exception.csproj",
+      "msbuildProject": "../Exception/_Exception.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -24297,7 +24718,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.59",
-      "Métier >= 1.0.0",
+      "Model >= 1.0.0",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -24317,7 +24738,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.59",
-      "Métier >= 1.0.0"
+      "Model >= 1.0.0"
     ],
     "net7.0-maccatalyst16.1": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -24326,7 +24747,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.59",
-      "Métier >= 1.0.0"
+      "Model >= 1.0.0"
     ],
     "net7.0-windows10.0.19041": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -24338,7 +24759,7 @@
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.59",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22621.755",
       "Microsoft.WindowsAppSDK >= 1.2.221209.1",
-      "Métier >= 1.0.0"
+      "Model >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -24378,32 +24799,32 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "projectReferences": {
-            "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Métier.csproj": {
-              "projectPath": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Métier.csproj"
+            "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Model.csproj": {
+              "projectPath": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Model.csproj"
             }
           }
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "projectReferences": {
-            "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Métier.csproj": {
-              "projectPath": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Métier.csproj"
+            "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Model.csproj": {
+              "projectPath": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Model.csproj"
             }
           }
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "projectReferences": {
-            "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Métier.csproj": {
-              "projectPath": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Métier.csproj"
+            "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Model.csproj": {
+              "projectPath": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Model.csproj"
             }
           }
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Métier.csproj": {
-              "projectPath": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Métier.csproj"
+            "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Model.csproj": {
+              "projectPath": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Model.csproj"
             }
           }
         }

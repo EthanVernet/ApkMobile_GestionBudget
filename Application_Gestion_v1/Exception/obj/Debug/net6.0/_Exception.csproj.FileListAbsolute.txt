@@ -1,0 +1,12 @@
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Exception\bin\Debug\net6.0\_Exception.deps.json
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Exception\bin\Debug\net6.0\_Exception.dll
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Exception\bin\Debug\net6.0\_Exception.pdb
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Exception\obj\Debug\net6.0\_Exception.csproj.AssemblyReference.cache
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Exception\obj\Debug\net6.0\_Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Exception\obj\Debug\net6.0\_Exception.AssemblyInfoInputs.cache
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Exception\obj\Debug\net6.0\_Exception.AssemblyInfo.cs
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Exception\obj\Debug\net6.0\_Exception.csproj.CoreCompileInputs.cache
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Exception\obj\Debug\net6.0\_Exception.dll
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Exception\obj\Debug\net6.0\refint\_Exception.dll
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Exception\obj\Debug\net6.0\_Exception.pdb
+C:\Users\Ethan\Documents\GitHub\ApkMobile_GestionBudget\Application_Gestion_v1\Exception\obj\Debug\net6.0\ref\_Exception.dll

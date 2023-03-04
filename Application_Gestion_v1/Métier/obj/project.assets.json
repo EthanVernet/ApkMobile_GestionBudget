@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "_Exception/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/_Exception.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_Exception.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "_Exception/1.0.0": {
+      "type": "project",
+      "path": "../Exception/_Exception.csproj",
+      "msbuildProject": "../Exception/_Exception.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "_Exception >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Ethan\\.nuget\\packages\\": {},
@@ -14,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Métier.csproj",
-      "projectName": "Métier",
-      "projectPath": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Métier.csproj",
+      "projectUniqueName": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Model.csproj",
+      "projectName": "Model",
+      "projectPath": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\Model.csproj",
       "packagesPath": "C:\\Users\\Ethan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Métier\\obj\\",
       "projectStyle": "PackageReference",
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Exception\\_Exception.csproj": {
+              "projectPath": "C:\\Users\\Ethan\\Documents\\GitHub\\ApkMobile_GestionBudget\\Application_Gestion_v1\\Exception\\_Exception.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

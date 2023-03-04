@@ -1,24 +1,24 @@
 using System;
-using System.Runtime.InteropServices;
 
-public class MCategorie {
-	private List<global::Application_Gestion.Métier.Categorie> _categories;
+namespace Métier
+{
+    public class MCategorie
+    {
+        private List<Categorie> _categories;
 
-	public MCategorie() {
-		throw new System.NotImplementedException("Not implemented");
-	}
-	public void AddCategorie([Optional, DefaultParameterValueAttribute()]ref Categorie categorie) {
-		throw new System.NotImplementedException("Not implemented");
-	}
-	public void RemoveCategorie([Optional, DefaultParameterValueAttribute()]ref Categorie categorie) {
-		throw new System.NotImplementedException("Not implemented");
-	}
-	public Categorie GetCategorie([Optional, DefaultParameterValueAttribute()]ref Categorie categorie) {
-		throw new System.NotImplementedException("Not implemented");
-	}
+        public MCategorie()
+        {
+            _categories = new List<Categorie>();
+        }
 
-	private Categorie categorie;
+        public void AddCategorie(Categorie categorie)
+        {
+            _categories.Add(categorie);
+        }
 
-	private Compte compte;
-
+        public void RemoveCategorie(Categorie categorie)
+        {
+            _categories.Remove(categorie);
+        }
+    }
 }
